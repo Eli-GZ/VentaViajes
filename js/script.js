@@ -8,6 +8,7 @@ let parrafoElemento = document.getElementById('parrafo');
 let precioElemento = document.getElementById('precio')
 
 
+
 //evento click
 
 enlaces.forEach(function (enlace) {
@@ -26,7 +27,7 @@ enlaces.forEach(function (enlace) {
     tituloElemento.innerHTML = contenido.titulo;
     subTituloElemento.innerHTML = contenido.subtitulo;
     parrafoElemento.innerHTML = contenido.parrafo;
-    precioElemento.innerHTML = contenido.precio;
+    precioElemento.innerHTML = contenido.precio; 
   });
 });
 

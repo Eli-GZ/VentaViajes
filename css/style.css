@@ -1,0 +1,56 @@
+body {
+    margin: 0;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 25%;
+    background-color: #414141;
+    position: fixed;
+    height: 100%;
+    overflow: auto;
+    
+}
+ul h1 {
+    font-family: fantasy;
+    font-weight: 100;
+    display: block;
+    font-size: 40px;
+    color: #bb3131;
+    padding: 20px 16px;
+    text-decoration: none;    
+}
+
+li a {
+    font-family: fantasy;
+    font-weight: 100;
+    display: block;
+    font-size: 25px;
+    color: #c3c3c3;
+    padding: 20px 16px;
+    text-decoration: none;
+    cursor: pointer;
+
+}
+
+li a.active {
+    background-color: #aa0404;
+    color: white;
+}
+
+li a:hover:not(.active) {
+    background-color: #ffffff;
+    color: black;
+}
+
+
+.contenedor {
+    
+    opacity: 0.9;
+    background-size: cover;
+    margin-left: 25%;
+    padding: 1px 16px;
+    height: 1000px;
+}
